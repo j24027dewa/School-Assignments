@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>CGIを利用してみよう</title>
+    </head>
+    <body>
+        <header>
+            <h1>様々なフォーム</h1>
+        </header>
+        <main>
+        <form action="./cgi-bin/form_sample.py" method="GET">
+            <h2>下記を記入してから送信ボタンを押してください</h2>
+            <p>名前:<input type="text" name="name"/></p>
+            <p>所属学科<br />
+            <input type="radio" name="course" value="0"/>機械・精密システム工学科<br />
+            <input type="radio" name="course" value="1"/>航空宇宙工学科<br />
+            <input type="radio" name="course" value="2"/>情報電子工学科<br />
+            <input type="radio" name="course" value="3"/>バイオサイエンス工学科<br />
+            <input type="radio" name="course" value="4"/>柔道整復学科<br />
+            </p>
+            <P>関心のある分野<br />
+            <input type="checkbox" name="interest" value="0"/>プログラミング<br />
+            <input type="checkbox" name="interest" value="1"/>旅行<br />
+            <input type="checkbox" name="interest" value="2"/>読書<br />
+            <input type="checkbox" name="interest" value="3"/>スポーツ<br />
+            <input type="checkbox" name="interest" value="4"/>映画<br />
+            </P>
+            <p><input type="submit" value="送信"/></p>
+        </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>様々なイベント処理</title>
+        <script type="text/JavaScript" src="sample10_7.js"></script>
+    </head>
+    <body>
+        <h1>様々なイベント処理</h1>
+        <h2>項目を選択してください</h2>
+        リンゴ(200円) : <input type="radio" name="fruit" value="200" onchange="checkForm()">
+        <br />
+        バナナ(300円) : <input type="radio" name="fruit" value="300" onchange="checkForm()">
+        <br />
+        ぶどう(400円) : <input type="radio" name="fruit" value="400" onchange="checkForm()">
+        <br />
+        <h2>数値を入力してください</h2>
+        個数 : <input type="text" id="num" onchange="checkForm()"><br />
+        <hr />
+        <input type="button" id="calc" value="計算" disabled onclick="calcPrice()">
+        小計 : <input type="text" id="priceSum">円<br />
+    </body>
+</html>

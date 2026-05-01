@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%"
+style="background-color:#ddd">
+<rect x="5" y="5" width="3000" height="300" stroke="black" fill="#fff" stroke-width="2">
+<animate attributeName="x" form="-3000" to="3030" dur="10s" repeatCount="indefinite" />
+</rect>
+</svg>

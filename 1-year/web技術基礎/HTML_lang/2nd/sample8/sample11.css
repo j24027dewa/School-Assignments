@@ -1,0 +1,32 @@
+header h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.para1{
+    background-color: #ddd;
+    text-align: left;
+}
+.para2{
+    background-color: white;
+    text-align: right;
+}
+p>span{
+    font-size: 120%;
+    font-weight: bold;
+}
+div #sp1{
+    border-bottom: double 6px orange;
+}
+div #sp2{
+    background: linear-gradient(transparsent 70%, yellow 70%);
+}
+footer{
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+}
+footer h1{
+    text-align: right;
+    font-size: medium;    
+}
