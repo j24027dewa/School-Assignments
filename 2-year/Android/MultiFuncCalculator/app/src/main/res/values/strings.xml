@@ -1,0 +1,41 @@
+<resources>
+    <!--    メインアクティビティ  -->
+    <string name="app_name">MultiFuncCalculator</string>
+    <string name="view_data">0  </string>
+    <string name="btnstr_ac">AC</string>
+    <string name="btnstr_memo">M</string>
+    <string name="btnstr_mode">mode</string>
+    <string name="btnstr_backspace">←</string>
+    <string name="btnstr_div">÷</string>
+    <string name="btnstr_mul">×</string>
+    <string name="btnstr_add">+</string>
+    <string name="btnstr_sub">-</string>
+    <string name="btnstr_equ">=</string>
+    <string name="btnstr_com">.</string>
+    <string name="btnstr_0">0</string>
+    <string name="btnstr_1">1</string>
+    <string name="btnstr_2">2</string>
+    <string name="btnstr_3">3</string>
+    <string name="btnstr_4">4</string>
+    <string name="btnstr_5">5</string>
+    <string name="btnstr_6">6</string>
+    <string name="btnstr_7">7</string>
+    <string name="btnstr_8">8</string>
+    <string name="btnstr_9">9</string>
+
+    <!--    メモリ機能選択    -->
+    <string name="diaselect_memo">メモリ機能</string>
+    <string name="diaselect_call">M呼び出し</string>
+    <string name="diaselect_add">M+</string>
+    <string name="diaselect_sub">M-</string>
+    <string name="diaselect_clear">Mクリア</string>
+
+    <!--    汎用    -->
+    <string name="log">計算履歴</string>
+    <string name="turn">戻る</string>
+
+
+    <string name="title_activity_mode_select">ModeSelectActivity</string>
+    <string name="select_mode">モード選択</string>
+    <string name="close">閉じる</string>
+</resources>

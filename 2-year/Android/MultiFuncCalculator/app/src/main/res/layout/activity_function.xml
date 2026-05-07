@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    android:orientation="vertical"
+    android:id="@+id/Func_main">
+
+    <HorizontalScrollView
+        android:id="@+id/horizoncaView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scrollbars="horizontal">
+
+        <TextView
+            android:id="@+id/CalculatView"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom|end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="60sp"
+            android:textColor="#30000000"/>
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizonCalVal"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:scrollbars="horizontal">
+
+
+        <TextView
+            android:id="@+id/CalculatValue"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="bottom|end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:ellipsize="none"
+            android:text="@string/view_data"
+            android:textSize="60sp" />
+
+    </HorizontalScrollView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:columnCount="6"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/FuncCalButtonVar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="10sp"
+            android:backgroundTint="#5E35B1"
+            android:text="var"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="9sp"
+            android:backgroundTint="#5E35B1"
+            android:text="nPr"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="9sp"
+            android:backgroundTint="#5E35B1"
+            android:text="nCr"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="9sp"
+            android:backgroundTint="#5E35B1"
+            android:text="10^"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="20sp"
+            android:backgroundTint="#5E35B1"
+            android:text="!"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="8sp"
+            android:backgroundTint="#5E35B1"
+            android:text="flog"
+            tools:ignore="SmallSp" />
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="8sp"
+            android:backgroundTint="#5E35B1"
+            android:text="sqrt"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="8sp"
+            android:backgroundTint="#5E35B1"
+            android:text="root"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:backgroundTint="#5E35B1"
+            android:text="^2"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="10sp"
+            android:backgroundTint="#5E35B1"
+            android:text="^■"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="10sp"
+            android:backgroundTint="#5E35B1"
+            android:text="log"
+            tools:ignore="SpUsage" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="15sp"
+            android:backgroundTint="#5E35B1"
+            android:text="ln"/>
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="9sp"
+            android:backgroundTint="#5E35B1"
+            android:text="abs"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="10sp"
+            android:backgroundTint="#5E35B1"
+            android:text="sin"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="8sp"
+            android:backgroundTint="#5E35B1"
+            android:text="cos"
+            tools:ignore="SmallSp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="10sp"
+            android:backgroundTint="#5E35B1"
+            android:text="tan"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="15sp"
+            android:backgroundTint="#5E35B1"
+            android:text="("/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="5dp"
+            android:textSize="15sp"
+            android:backgroundTint="#5E35B1"
+            android:text=")" />
+
+    </GridLayout>
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:columnCount="5"
+        android:rowCount="4"
+        android:clipChildren="false">
+
+        <Button
+            android:id="@+id/FuncCalButton7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="35sp"
+            android:text="@string/btnstr_7"/>
+        <Button
+            android:id="@+id/FuncCalButton8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_8"/>
+        <Button
+            android:id="@+id/FuncCalButton9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_9"/>
+        <Button
+            android:id="@+id/FuncCalButtonBS"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="40sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_backspace"/>
+        <Button
+            android:id="@+id/FuncCalButtonAC"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:ellipsize="none"
+            android:maxLines="1"
+            android:textSize="17sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_ac"/>
+
+
+
+        <Button
+            android:id="@+id/FuncCalButton4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="35sp"
+            android:text="@string/btnstr_4"/>
+        <Button
+            android:id="@+id/FuncCalButton5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_5"/>
+        <Button
+            android:id="@+id/FuncCalButton6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_6"/>
+        <Button
+            android:id="@+id/FuncCalButtonMul"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="40sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_mul"/>
+        <Button
+            android:id="@+id/FuncCalButtonDiv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="40sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_div"/>
+
+
+
+        <Button
+            android:id="@+id/FuncCalButton1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="35sp"
+            android:text="@string/btnstr_1"/>
+        <Button
+            android:id="@+id/FuncCalButton2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_2"/>
+        <Button
+            android:id="@+id/FuncCalButton3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_3"/>
+        <Button
+            android:id="@+id/FuncCalButtonAdd"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_add"/>
+        <Button
+            android:id="@+id/FuncCalButtonSub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="40sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_sub"/>
+
+
+
+
+        <Button
+            android:id="@+id/FuncCalButtonMode"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:ellipsize="none"
+            android:maxLines="1"
+            android:textSize="8sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_mode"/>
+        <Button
+            android:id="@+id/FuncCalButton0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="35sp"
+            android:text="@string/btnstr_0"/>
+        <Button
+            android:id="@+id/FuncCalButtonCom"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="30sp"
+            android:text="@string/btnstr_com"/>
+        <Button
+            android:id="@+id/FuncCalButtonMem"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="25sp"
+            android:backgroundTint="#5E35B1"
+            android:text="@string/btnstr_memo"/>
+        <Button
+            android:id="@+id/FuncCalButtonEqu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#00bfff"
+            android:textSize="40sp"
+            android:text="@string/btnstr_equ"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

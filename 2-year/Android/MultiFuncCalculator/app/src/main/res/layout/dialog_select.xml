@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    android:layout_marginBottom="200dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textSize="30sp"
+        android:text="@string/diaselect_memo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/CallSelectMemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:padding="12dp"
+        android:text="@string/diaselect_call" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AddSelectMemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:padding="12dp"
+        android:text="@string/diaselect_add" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SubSelectMemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:padding="12dp"
+        android:text="@string/diaselect_sub" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ClearSelectMemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:padding="12dp"
+        android:text="@string/diaselect_clear" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/LogSelectMemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:padding="12dp"
+        android:text="@string/log" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/CloseSelectMemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_button"
+        android:padding="12dp"
+        android:text="@string/turn" />
+
+</LinearLayout>
