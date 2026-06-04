@@ -12,7 +12,6 @@ Web技術基礎などの課題は、以下のリンクから実際にブラウ�
 
 ### 2年次 (2nd Year)
 - **Android アプリ開発**
-<<<<<<< HEAD
   - `MultiFuncCalculator/`: 多機能電卓アプリ。
   - `release/`: 実行用 APK ファイルを格納。
   - `docs/`: 画面設計図（draw.io, PNG）やレポート。
@@ -32,20 +31,6 @@ Web技術基礎などの課題は、以下のリンクから実際にブラウ�
   - `Python/`:Pythonの基礎演習。
 - **Web技術基礎**
   - `Web_Technology_Basics/HTML_Lang/`: HTML/CSS の基礎演習。
-=======
-  - `MultiFuncCalculator`: 多機能電卓アプリ。
-  - `release/`: 実行用 APK ファイルを格納。
-  - `docs/`: 画面設計図（draw.io, PNG）やレポート。
-- **ネットワーク演習 (CCNA)**
-  - `Network/`: Packet Tracer (`.pkt`) を使用したネットワーク構成図と設定ログ。
-
-### 1年次 (1st Year)
-- **Web技術基礎**
-  - `Web_Technology_Basics/HTML_Lang/`: HTML/CSS の基礎演習。
-- **Python プログラミング**
-  - 基礎的なアルゴリズムやデータ処理の演習。
->>>>>>> 39fa3d3b300940bdf04264af3dab80e5b339bf1a
-
 ---
 
 ## 🛠 使用技術・ツール
