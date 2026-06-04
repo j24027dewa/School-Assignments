@@ -10,7 +10,21 @@ Web技術基礎などの課題は、以下のリンクから実際にブラウ�
 
 ## 📂 コンテンツの構成
 
-### 2年次 (2nd Year)
+### 1年次 (1_Year)
+- **情報科学演習1**
+  - `Assembly/`: アセンブリ言語CASLⅡの基礎演習。
+- **コンピュータアーキテクチャ**
+  - `Computer_Architecture/`: コンピュータの歴史や構造を学習。
+- **データベース**
+  - `DB`:データベースの基礎演習。
+- **オペレーションズリサーチ**
+  - `Operations_Research/`: Excelのソルバー機能を用いた線形計画法の演習。
+- **Python基礎**
+  - `Python/`: Pythonの基礎演習。
+- **Web技術基礎**
+  - `Web_Technology_Basics/HTML_Lang/`: HTML/CSS の基礎演習。
+
+### 2年次 (2_Year)
 - **Android アプリ開発**
   - `MultiFuncCalculator/`: 多機能電卓アプリ。
   - `release/`: 実行用 APK ファイルを格納。
@@ -18,19 +32,9 @@ Web技術基礎などの課題は、以下のリンクから実際にブラウ�
 - **ネットワーク演習 (CCNA)**
   - `Cisco/`: Cisco Packet Tracer (`.pkt`) を使用したネットワーク構成図と設定ログ。
 
-### 1年次 (1st Year)
-- **情報科学演習1**
-  - `Assembly/`:アッセンブリ言語CASLⅡの基礎演習。
-- **コンピュータアーキテクチャ**
-  - `Computer_Architecture/`:コンピュータの歴史や構造を学習。
-- **データベース**
-  - `DB`:データベースの基礎演習。
-- **オペレーションズリサーチ**
-  - `Operations_Research/`:Excelのソルバー機能を用いた線形計画法の演習。
-- **Python基礎**
-  - `Python/`:Pythonの基礎演習。
-- **Web技術基礎**
-  - `Web_Technology_Basics/HTML_Lang/`: HTML/CSS の基礎演習。
+### データ分析
+- **SIGNATE**
+ -`Practice_Bank_Marketing/`: SIGNATEの【練習問題】銀行の顧客ターゲティングの演習。
 ---
 
 ## 🛠 使用技術・ツール
